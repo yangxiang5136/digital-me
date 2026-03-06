@@ -1,0 +1,27 @@
+last_updated: "2026-03-06"
+last_session_summary: "Initial project management infrastructure setup"
+
+agents:
+  memory_agent:
+    version: "1.0"
+    status: running
+    deployment: Railway
+  connection_mapper:
+    version: "2.1"
+    status: running
+    deployment: local
+  news_agent:
+    version: null
+    status: planned
+    deployment: null
+
+metrics:
+  memory_files: 33
+  connections: 318
+  open_system_improvements: 8
+
+next_session:
+  priority: "Triage open issues + begin News Agent v1"
+  open_decisions:
+    - "Review and update direction.yaml before building News Agent"
+    - "Decide News Agent deployment target"
